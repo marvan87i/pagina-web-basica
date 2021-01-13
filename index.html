@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
+    
+    <meta name="description" content="Esta es mi primera pagina web">
+    <meta name="author" content="mariano hm">
+    <meta name='keywords' content="Mi primera pagina,web,html,css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Blog</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <div class="bodycontentgroup">
+
+        <header class="header"><h1>Mi blog</h1></header>
+        <nav  class="menu">
+                <ul>
+                <li>Principal</li>
+                <li>Ayuda</li>
+                <li>Contacto</li>
+                </ul>
+        </nav>
+        <section class="section"> <!--Contenido principal -->
+            <article>
+                <hgrop> <!--agrupar los h1 -->
+                    <h1>Titulo del primer articulo</h1>
+                    <h2>Subtitulo del primer articulo</h2>
+                </hgrop>
+                
+                <time datetime="08/01/2021">Publicado el 08/01/2021</time>
+                <img src="../img/21633.jpg">
+                <p>Lorem ipsum dolor sit amet, <small>consectetur adipisicing elit. </small> minima amet laudantium aliquid nostrum dolorum adipisci sunt quas at iure reiciendis, est numquam ratione itaque rerum. Vitae modi dolore cupiditate.</p>
+                <footer>
+               <p>Comentarios 0</p>
+            </footer>
+
+       </article>
+       <article>
+           <hgroup>
+            <h1>Titulo del segundo articulo</h1>
+            <h2>Subtitulo del primer articulo</h2>
+            
+           </hgroup>
+           <time datetime="08/01/2021">Publicado el 08/01/2021</time>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias unde voluptates quibusdam consequatur cum? Officiis voluptates magnam numquam earum vero porro dicta ipsum, dolorum obcaecati exercitationem sequi odit reiciendis a!</p>
+           <footer>
+            <p>Comentarios 150</p>
+            
+        </footer>
+           
+        </article>
+    </section>
+    <aside class="asidecontent">
+        <blockquote cite="https://www.google.com">mensaje 1</blockquote>
+        <blockquote cite="https://www.facebook.com">menshae 2</blockquote>
+        
+    </aside>
     
-    <p>Segundo parrafo de prueba</p>
+    
+    <footer class="footerpagecontent">
+        Acerca de..
+        Derechos reservados 2021 sa.de.cv
+    </footer>
+    
+</div>
 </body>
 </html>
